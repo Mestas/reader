@@ -10,7 +10,7 @@ import re
 
 # 页面配置
 st.set_page_config(
-    page_title="GitHub文本语音播放器",
+    page_title="QRadio V1.0",
     page_icon="🔊",
     layout="wide"
 )
@@ -28,7 +28,7 @@ if 'text_content' not in st.session_state:
     st.session_state.text_content = ""
 
 class GitHubTextReader:
-    """GitHub文本文件读取器"""
+    """TXT播放器"""
     
     def __init__(self, repo_url):
         self.repo_url = repo_url
@@ -208,7 +208,7 @@ class TextToSpeechEngine:
         self.temp_files.clear()
 
 def main():
-    st.title("🔊 GitHub文本语音播放器")
+    st.title("🔊 QRadio V1.0")
     st.markdown("---")
     
     # 初始化管理器
