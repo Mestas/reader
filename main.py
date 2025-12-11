@@ -340,9 +340,9 @@ def main():
         chunk_size = st.slider(
             "分块大小（字符）",
             min_value=100,
-            max_value=2000,
-            value=500,
-            step=100,
+            max_value=600,
+            value=400,
+            step=50,
             help="较小的分块可以减少请求失败"
         )
         
