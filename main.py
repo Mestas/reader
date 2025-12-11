@@ -222,8 +222,8 @@ def main():
         # GitHub仓库URL输入
         repo_url = st.text_input(
             "GitHub仓库URL",
-            value="https://github.com/Mestas/repository",
-            help="例如: https://github.com/Mestas/repository"
+            value="https://github.com/Mestas/reader",
+            help="例如: https://github.com/Mestas/reader"
         )
         
         if repo_url:
